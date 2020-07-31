@@ -4,9 +4,9 @@
   <div
     class="g-container-tablet padding-top-3 tablet:padding-top-0 padding-x-2 tablet:padding-x-5"
   >
-    <div class="g-row g-gap-1 tablet:g-gap">
+    <div class="grid-row g-gap-1 tablet:g-gap">
       {% for item in site.data.contents.nav %} {% if item.url != page.url %}
-      <div class="g-col mobile-plus:g-col-6 tablet:g-col-fill display-flex">
+      <div class="grid-col mobile-plus:grid-col-6 tablet:grid-col display-flex">
         <a
           href="{{ site.baseurl }}{{ item.url }}"
           class="display-flex flex-direction-column justify-content-flex-start text-decoration-none color-0 card border border-color-50 border-radius-base text-align-center padding-x-2 padding-y-3 align-items-center hover:border-color-white margin-top-1 tablet:margin-top-4 is-inverse width-full"

@@ -22,13 +22,11 @@ Our funding source is the Digital Services Fund: a portion of the Federal Citize
 
 We accept ideas on a rolling basis from U.S. federal employees and evaluate them twice a year. Submit your idea before August 5, 2020 to be considered for our next round of evaluations.
 
-<div class="g-row tablet:display-flex tablet:align-items-center clearfix margin-top-2 tablet:margin-top-3">
-  <a href="https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP" class="g-col tablet:g-col-auto background-color-red-warm-50v color-white padding-2 border-radius-small tablet:margin-right-5 text-decoration-none hover:background-color-indigo-warm-50v text-align-center margin-top-2 tablet:margin-top-0"><strong class="tablet:font-sans-8">Pitch an idea</strong><span class="font-sans-6 font-weight-300 display-block color-white">using our Submission form</span></a>
+<div class="grid-row tablet:display-flex tablet:align-items-center clearfix margin-top-2 tablet:margin-top-3">
+  <a href="https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP" class="grid-col tablet:grid-col-auto background-color-red-warm-50v color-white padding-2 border-radius-small tablet:margin-right-5 text-decoration-none hover:background-color-indigo-warm-50v text-align-center margin-top-2 tablet:margin-top-0"><strong class="tablet:font-sans-8">Pitch an idea</strong><span class="font-sans-6 font-weight-300 display-block color-white">using our Submission form</span></a>
 </div>
 
 {% endif %}
-
-
 
 <h2 class="docs-h2">10x privacy policy</h2>
 
