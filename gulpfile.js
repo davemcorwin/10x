@@ -1,15 +1,15 @@
 // var autoprefixer = require("autoprefixer");
-// var cssnano = require("cssnano");
+var cssnano = require("cssnano");
 // var del = require("del");
 // var gulp = require("gulp");
 // var gzip = require("gulp-gzip");
 // var movecss = require("css-mqpacker");
 // var path = require("path");
 // var postcss = require("gulp-postcss");
-// var rename = require("gulp-rename");
+var rename = require("gulp-rename");
 // var sass = require("gulp-sass");
-// var size = require("gulp-size");
-// var uncss = require("postcss-uncss");
+var size = require("gulp-size");
+var uncss = require("postcss-uncss");
 // var watch = require("gulp-watch");
 
 // // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -53,7 +53,7 @@
 // // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // // BUILD USWDS STYLES
 
-// gulp.task("copy-uswds-assets", () => {
+// gulp.task("copy-assets", () => {
 //   return gulp
 //     .src(`${USWDS_SRC}/@(js|fonts|img)/**/**`)
 //     .pipe(gulp.dest(`${ASSETS_DEST}`));
@@ -123,7 +123,7 @@ const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 
-const uswds = "node_modules/uswds/dist";
+const uswds = "./node_modules/uswds/dist";
 
 sass.compiler = require("sass");
 
@@ -137,6 +137,9 @@ PATHS
   names
 ----------------------------------------
 */
+
+// Build destination
+const BUILD_DEST = "_develop";
 
 // Project Sass source directory
 const PROJECT_SASS_SRC = "./_sass";
@@ -157,6 +160,9 @@ const CSS_DEST = "./assets/css";
 // Like the _site/assets/css directory in Jekyll, if necessary.
 // If using, uncomment line 106
 const SITE_CSS_DEST = "./assets/css";
+
+// Include destination
+const INC_DEST = "_includes";
 
 /*
 ----------------------------------------
@@ -209,19 +215,29 @@ gulp.task("build-sass", function (done) {
       .pipe(postcss(plugins))
       .pipe(sourcemaps.write("."))
       // uncomment the next line if necessary for Jekyll to build properly
-      //.pipe(gulp.dest(`${SITE_CSS_DEST}`))
-      .pipe(gulp.dest(`${CSS_DEST}`))
+      .pipe(gulp.dest(`${SITE_CSS_DEST}`))
+    //.pipe(gulp.dest(`${CSS_DEST}`))
   );
+});
+
+gulp.task("build-app", function () {
+  var plugins = [cssnano()];
+  return gulp
+    .src(`${CSS_DEST}/10x.css`)
+    .pipe(postcss(plugins))
+    .pipe(rename("10x.app.min.css"))
+    .pipe(gulp.dest(`${INC_DEST}`))
+    .pipe(size());
 });
 
 gulp.task(
   "init",
   gulp.series(
-    "copy-uswds-setup",
     "copy-uswds-fonts",
     "copy-uswds-images",
     "copy-uswds-js",
-    "build-sass"
+    "build-sass",
+    "build-app"
   )
 );
 
