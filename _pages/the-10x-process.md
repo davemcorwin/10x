@@ -2,7 +2,7 @@
 layout: page
 title: The 10x process
 permalink: /the-10x-process/
-description:  10x aims to uncover and elevate the most promising ideas from the federal workforce. We start our funding small and increase our investment as an idea matures into a sustainable project.
+description: 10x aims to uncover and elevate the most promising ideas from the federal workforce. We start our funding small and increase our investment as an idea matures into a sustainable project.
 bg_color: white-cool-3
 graphic_outer_bg: indigo-warm-50v
 graphic_middle_bg: indigo-warm-70
@@ -16,7 +16,6 @@ show_navbar: true
 - Next, we select ideas based on their potential impact and scalability.
 - Finally, 10x funds each selected idea in phases, as the project matures.
 
-
 <h2 class="docs-h2">Diverse ideas from civil servants</h2>
 
 10x believes that federal civil servants — with their front row view to the inner workings of our government — are uniquely positioned to identify the key problems that impede our government from achieving its mission. 10x aims to uncover and elevate the most promising ideas from the federal workforce.
@@ -27,28 +26,27 @@ Each subsequent phase of funding allows for a greater investment into an idea an
 
 <h2 class="docs-h2">How 10x selects projects</h2>
 
-10x accepts ideas from federal employees throughout the year. A few times a year, 10x collects all the ideas and evaluates them for funding. The most promising ideas proceed to Phase 1. 
+10x accepts ideas from federal employees throughout the year. A few times a year, 10x collects all the ideas and evaluates them for funding. The most promising ideas proceed to Phase 1.
 
 Your idea will be evaluated based on the following 3 criteria, each given equal weight:
 
 <ul class="line-height-small tablet:line-height-base">
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     <strong>Clarity.</strong> Does the idea understand and explain a real problem?</li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     <strong>Alignment.</strong> Does the idea help develop new, good-for-government technology?</li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     <strong>Impact.</strong> Does solving this problem have an important effect on the federal government or the public?</li>
 </ul>
 
-**Please note: for the August 2020 idea evaluations, 10x is particularly interested in receiving ideas within the areas of *Disaster Management Efforts*, *Direct Public Services*, and *Diversity, Inclusion, and Accessibility*.** For more information, please see the [Send us an idea](https://10x.gsa.gov/send-us-an-idea/) page. 
+**Please note: for the August 2020 idea evaluations, 10x is particularly interested in receiving ideas within the areas of _Disaster Management Efforts_, _Direct Public Services_, and _Diversity, Inclusion, and Accessibility_.** For more information, please see the [Send us an idea](https://10x.gsa.gov/send-us-an-idea/) page.
 
 <p>If selected, 10x starts its funding small — only magnifying its investment as an idea develops, step-by-step, into a sustainable project. This iterative approach, based on modern technology and investment practices, ensures that the best ideas turn into the best government products and services — funded with fewer taxpayer dollars.</p>
 
 <p>10x projects are managed and staffed by project teams within the <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Technology Transformation Service</a> department of the <a href="https://www.gsa.gov/">General Services Administration</a>.</p>
-
 
 <h2 class="docs-h2">10x project phases</h2>
 
@@ -76,7 +74,6 @@ Your idea will be evaluated based on the following 3 criteria, each given equal 
   <h3 class="margin-top-0">Phase 4: Scale — Up to $1.28 million</h3>
   <p>Bring the product or service to the largest possible audience.</p>
 </div>
-
 
 <h2 class="docs-h2">Project ownership</h2>
 

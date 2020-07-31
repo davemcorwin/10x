@@ -33,17 +33,17 @@ We accept ideas on a rolling basis from U.S. federal employees and evaluate them
 
 <ul class="line-height-small tablet:line-height-base">
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Have an impact on the federal government or on the public.
   </li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Improve the public’s experience with government through technology.</li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Improve how government builds and shares technology to better serve the public.</li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Are part of a big or rapidly growing market in government technology.</li>
 </ul>
 
@@ -51,24 +51,25 @@ We accept ideas on a rolling basis from U.S. federal employees and evaluate them
 
 <ul class="line-height-small">
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Be no more than 1000 characters in length.</li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Demonstrate a clear understanding of the problem you want to solve.</li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Focus on creating a new product or service that is good for government.</li>
   <li class="text-indent-neg-3 padding-left-3 tablet:text-indent-neg-4 tablet:padding-left-4">
-    <img class="display-line-block width-2 tablet:width-3 margin-right-p5 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
+    <img class="display-line-block width-2 tablet:width-3 margin-right-1 position-relative bottom-2px vertical-align-middle" src="{{ '/assets/img/check.svg' | relative_url }}" alt="check">
     Be as clear and descriptive as possible.</li>
 </ul>
 
 **For our current round of idea evaluations, 10x is particularly interested in expanding our investment portfolio to include ideas related to:**
-* **Disaster management efforts.** These ideas could include problems or opportunities for improving the management of resources that are critical to the government’s handling of emergencies (preparedness, resilience, response, mitigation, and recovery). Areas of interest include how the government might more effectively address the COVID-19 health crisis and ensuing economic damage, as well as natural disasters.
-* **Direct public services.** These are digital services for which the primary customer (or end user) is a member of the public, as opposed to agencies, government systems, or government employees. 
-* **Diversity, inclusion, and accessibility.** 10x is particularly interested in ideas that further diversity, inclusion and accessibility for all members of the public. Areas of interest could include expanding access to government services for populations that may be traditionally underserved, and/or efforts to ensure equity of service across diverse segments of the population.
-In your submission, we also welcome some initial thoughts on how digital services (software, data, and guidance) can help solve the problem at-hand.
+
+- **Disaster management efforts.** These ideas could include problems or opportunities for improving the management of resources that are critical to the government’s handling of emergencies (preparedness, resilience, response, mitigation, and recovery). Areas of interest include how the government might more effectively address the COVID-19 health crisis and ensuing economic damage, as well as natural disasters.
+- **Direct public services.** These are digital services for which the primary customer (or end user) is a member of the public, as opposed to agencies, government systems, or government employees.
+- **Diversity, inclusion, and accessibility.** 10x is particularly interested in ideas that further diversity, inclusion and accessibility for all members of the public. Areas of interest could include expanding access to government services for populations that may be traditionally underserved, and/or efforts to ensure equity of service across diverse segments of the population.
+  In your submission, we also welcome some initial thoughts on how digital services (software, data, and guidance) can help solve the problem at-hand.
 
 <h2 class="docs-h2">Need some help?</h2>
 
