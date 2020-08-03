@@ -355,7 +355,7 @@
                                     <use xlink:href="#path-13"></use>
                                 </mask>
                                 <use id="Combined-Shape" fill="#676767" xlink:href="#path-13"></use>
-                                <g id="color-red-warm-50v" mask="url(#mask-14)" fill="#D93F04">
+                                <g id="text-accent-warmv" mask="url(#mask-14)" fill="#D93F04">
                                     <g transform="translate(0.000000, -2.000000)" id="Rectangle">
                                         <rect x="0" y="0" width="48" height="35"></rect>
                                     </g>
