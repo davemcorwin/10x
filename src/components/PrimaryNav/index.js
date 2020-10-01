@@ -4,6 +4,7 @@ import classnames from "classnames";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import close from "./close.svg";
 import Button from "components/Button";
+import "./PrimaryNav.scss";
 
 const NavItem = ({ id, text, url, items = [] }) => {
   return (

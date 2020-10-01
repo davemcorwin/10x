@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classnames from "classnames";
 import Button from "components/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Banner.scss";
 
 const Banner = () => {
   const [isOpen, setOpen] = useState(false);

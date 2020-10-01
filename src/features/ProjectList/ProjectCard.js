@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Card from "components/Card";
 import ProjectStatus from "./ProjectStatus";
 import Button from "components/Button";
+import "./ProjectCard.scss";
 
 const ProjectCard = ({ data }) => {
   return (

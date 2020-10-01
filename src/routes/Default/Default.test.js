@@ -2,6 +2,7 @@ import React from "react";
 import { mount } from "enzyme";
 import Default from "routes/Default";
 import TestProvider from "test/TestProvider";
+import "./Default.scss";
 
 describe("<Default />", () => {
   describe("default render", () => {

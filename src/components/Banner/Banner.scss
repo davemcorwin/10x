@@ -1,3 +1,5 @@
+@import "~styles/index.scss";
+
 .usa-banner {
   @include u-bg("primary-darker");
   @include u-margin-x(-1rem);

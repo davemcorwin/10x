@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import classnames from "classnames";
+import "./Button.scss";
 
 const nodes = {
   a: ({ url, children, type, ...props }) => (
@@ -29,7 +30,7 @@ export const Button = ({
   const Node =
     onClick || type
       ? nodes["b"]
-      : external || (url ? url.includes("://") : false)
+      : external || url.includes("://")
       ? nodes["a"]
       : nodes["link"];
   return (

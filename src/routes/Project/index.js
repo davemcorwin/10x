@@ -10,6 +10,7 @@ import { Grid } from "components/Grid";
 import Loading from "components/Loading";
 import Icon from "components/Icon";
 import Button from "components/Button";
+import "./Project.scss";
 
 const Project = ({ type }) => {
   const dispatch = useDispatch();

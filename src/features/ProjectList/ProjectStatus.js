@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Icon from "components/Icon";
 import classnames from "classnames";
+import "./ProjectStatus.scss";
 
 const PhaseItem = ({ data, phase, label }) => {
   const isCurrent = phase === data.phase;

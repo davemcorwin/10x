@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import { Col, Grid, Row } from "components/Grid";
 import Image from "components/Image";
+import "./LocationMenu.scss";
 
 const LocationMenu = ({ name }) => {
   const { pathname } = useLocation();

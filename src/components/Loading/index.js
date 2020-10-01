@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
+import "./Loading.scss";
 
 export const Loading = ({ isLoading, className, children }) => {
   if (isLoading) {

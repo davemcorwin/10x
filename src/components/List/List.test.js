@@ -1,6 +1,7 @@
 import React from "react";
 import { mount } from "enzyme";
 import List from "components/List";
+import "./List.scss";
 
 describe("<List />", () => {
   describe("default render", () => {

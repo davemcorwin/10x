@@ -8,6 +8,7 @@ import PrimaryNav from "components/PrimaryNav";
 import Logo from "components/Logo";
 import { getMenuList } from "app/MenuModule";
 import Mdx from "features/Mdx";
+import "./Primary.scss";
 
 const Primary = ({ children }) => {
   const dispatch = useDispatch();

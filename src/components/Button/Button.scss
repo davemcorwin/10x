@@ -1,3 +1,5 @@
+@import "~styles/index.scss";
+
 @mixin buttonCustom($value) {
   background-color: color($value);
   box-shadow: $button-stroke color($value);
